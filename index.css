@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.grid{
+    display: grid;
+    max-width: 800px;
+    max-height: 800px;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+}
+
+.grid img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cat{
+    grid-column: 1 / 4;
+    grid-row: 12/7;
+}
+
+.dog{
+    grid-column: 10/13;
+    grid-row: 12/7;
+}
+
+.star{
+    grid-column: 6/8;
+    grid-row: 5/7
+}

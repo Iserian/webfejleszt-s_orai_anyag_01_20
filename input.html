@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INPUTOK</title>
+</head>
+<body>
+    <form> 
+        <!-- Text input -->
+        <p for="">Add meg a neved</p>
+        <input type="text" placeholder="Pl: ''Lencsényi Trevente'' ">
+
+        <!-- Checkbox input -->
+        <p for="">Válassz!</p>
+            <input type="checkbox" name="fruit" id="eper">
+            <label for="eper">Eper</label>
+            <input type="checkbox" name="fruit" id="banan">
+            <label for="banan">Banán</label>
+            <input type="checkbox" name="fruit" id="szeder">
+            <label for="szeder">Szeder</label>
+
+            <!-- Radio input -->
+        <p>Mi a nemed?</p>
+            <label for="men">Férfi?</label>
+            <input type="radio" name="gender" id="men">
+            <label for="women">Nő?</label>
+            <input type="radio" name="gender" id="women">
+
+        <p>Dátum:</p>
+        <input type="date" name="" id="">
+
+        <!-- Select(lenyíló menü) -->
+        <label for="street"><p>Válassz utcát:</p></label>
+        <select name="street" id="street" multiple>
+                <option value="bikas">Bikás park</option>
+                <option value="kalvin">Kálvin</option>
+                <option value="szent">Szent Gellért tér</option>
+        </select>
+
+        <!-- Gombok -->
+        <button>Kattints</button>
+
+        <!-- Text area -->
+        <textarea name="comment" id="" cols="30" rows="10"></textarea>
+
+        <!-- Fieldset/Legend -->
+        <form>
+            <fieldset>
+                <legend>Hack:</legend>
+                <label for="code">Add meg a kódot:</label>
+                <input type="text" id="code">
+                <button>Send</button>
+            </fieldset>
+        </form>
+
+        
+    </form>
+</body>
+</html>
